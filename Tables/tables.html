@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Student details</title>
+        <style>
+            table, th, td {
+              border:1px solid navajowhite;
+            }
+            </style>
+    </head>
+    <body>
+        {% block content %}
+        <table style="width:100%">
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Address</th>
+                <th>Gender</th>
+            </tr>
+            <tr>
+                <td>Janani</td>
+                <td>Kuppu samy</td>
+                <td>Annur</td>
+                <td>Female</td>
+            </tr>
+            <tr>
+                <td>Dharani</td>
+                <td>Kanagaraj</td>
+                <td>Chennai</td>
+                <td>Female</td>
+            </tr>
+            <td>madhu</td>
+            <td>Ram krishna</td>
+            <td>Coimbatore</td>
+            <td>Female</td>
+        </tr>
+        </table>
+    </body>
+
+    {% endblock %}
+
+</html>
